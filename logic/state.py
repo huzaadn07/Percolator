@@ -4,7 +4,7 @@ class GameState:
         self.money = 0
         self.currentScore = 0
 
-    def calcHandScore(self, playedCards):
+    def calc_hand_score(self, playedCards):
         # Add all card base points
         score = 0
         for card in playedCards:
