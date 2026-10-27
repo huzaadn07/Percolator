@@ -25,3 +25,8 @@ class Deck:
             if self.cards:
                 drawn.append(self.cards.pop())
         return drawn
+      
+class Customer:
+    def __init__(self, name, targetScore):
+        self.name = name
+        self.targetScore = targetScore
