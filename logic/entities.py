@@ -25,11 +25,3 @@ class Deck:
             if self.cards:
                 drawn.append(self.cards.pop())
         return drawn
-
-#temp main
-"""
-
-newCard = Card("Chocolate", "Sweet", 100)
-print(newCard.get_stats())
-
-"""
