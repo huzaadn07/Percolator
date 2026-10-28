@@ -2,6 +2,6 @@
 
 from logic.engine import GameEngine
 
-
-game = GameEngine()
-game.run_game()
+if __name__ == "__main__":
+    game = GameEngine()
+    game.run_game()
